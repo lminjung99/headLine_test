@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.headline_test.HeadlineTestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-14T08:42:46" hostname="iminjeong-ui-MacBookAir.local" time="0.43">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.headline_test.HeadlineTestApplicationTests" time="0.43"/>
+  <system-out><![CDATA[17:42:46.315 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.headline_test.HeadlineTestApplicationTests]: HeadlineTestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:42:46.355 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.headline_test.HeadlineTestApplication for test class com.example.headline_test.HeadlineTestApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2023-10-14T17:42:46.509+09:00  INFO 22802 --- [    Test worker] c.e.h.HeadlineTestApplicationTests       : Starting HeadlineTestApplicationTests using Java 21 with PID 22802 (started by iminjeong in /Users/iminjeong/Spring/headline_test)
+2023-10-14T17:42:46.509+09:00  INFO 22802 --- [    Test worker] c.e.h.HeadlineTestApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2023-10-14T17:42:46.961+09:00  INFO 22802 --- [    Test worker] c.e.h.HeadlineTestApplicationTests       : Started HeadlineTestApplicationTests in 0.551 seconds (process running for 1.056)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/iminjeong/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.8/ae6ebe485f3bcd0a1e20241488a32e6400a501ef/byte-buddy-agent-1.14.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
