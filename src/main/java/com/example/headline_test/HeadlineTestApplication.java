@@ -12,6 +12,7 @@ public class HeadlineTestApplication {
 	public static void main(String[] args) {
 		
 		SpringApplication.run(HeadlineTestApplication.class, args);
+		System.out.println("print test");
 		Path currentWorkingDir = Paths.get("").toAbsolutePath();
 		
 		System.out.println("Root dir : "+currentWorkingDir);
